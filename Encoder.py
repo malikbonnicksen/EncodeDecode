@@ -1,6 +1,6 @@
-original = open("C:/Users/mab/OneDrive - HJ Hansen/Dokumenter/Tekst_to_encode.txt", 'r', encoding="utf8")
+original = open("", 'r', encoding="utf8")
 lines = original.readlines()
-output = open("C:/Users/mab/OneDrive - HJ Hansen/Dokumenter/Encoded_text.txt", 'w', encoding="utf8")
+output = open("", 'w', encoding="utf8")
 specials = {}
 with open("HTML special characters.txt", 'r', encoding="utf8") as f:
     for line in f:
