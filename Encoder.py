@@ -18,6 +18,3 @@ for line in lines:
     updated_text_part = ' '.join(words)
     updated_line = f"{number_part}\t{updated_text_part}"
     output.write(updated_line + '\n')
-    
-
-
